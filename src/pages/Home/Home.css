@@ -1,0 +1,249 @@
+*{
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    background-color:rgba(243, 243, 243, 1);
+    color: black;
+    border-radius: 10px;
+    padding: 5px;
+ 
+   
+}
+
+.infos td{
+    
+    border-bottom: 1px solid black;
+}
+
+.tabela{
+    
+    width: calc(100% - 2%);
+
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+table{
+    width: 100%;
+    max-width: 1200px;
+    height: 20vh;
+    background-color: white;
+    padding: 10px;
+    margin: 0 auto;
+   
+    border: 1px solid none;
+    border-radius: 10px 10px;
+    color: black;
+
+
+}
+
+table td{
+    width: 140px;
+    font-size: 16px;
+    
+    
+}
+
+table td a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+table td a:hover{
+    color: #e3e302;
+
+}
+
+#excluir{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#excluir:hover{
+    color: #e50404;
+
+}
+
+table .infos:hover{
+    background-color: rgba(150, 144, 144, 0.09);
+    transition: 0.2s;
+}
+
+table .infos{
+    transition: 0.3s;
+}
+.nome{
+    width: 260px;
+}
+
+.container{
+    width: 100%;
+    padding: 10%;
+}
+
+.adicionar{
+    width: calc(100% - 20%);
+    margin: 0 auto;
+    
+}
+
+.adicionar form{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 100%;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+
+}
+
+.adicionar form h3{
+    color: #282c34;
+}
+
+.adicionar form input{
+    width:90%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 10px;
+    margin: 5px;
+    
+}
+
+.adicionar form select{
+
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 10px;
+    margin: 5px;
+
+}
+
+.adicionar form button{
+    width: calc(100% - 20%);
+    height: 40px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    font-size: 16px;
+    margin: 15px;
+    transition: 0.5s;
+    cursor: pointer;
+    font-weight: 400;
+    
+}
+
+.adicionar form button:hover{
+    background-color:#282c34 ;
+    color: white;
+    border: 1px solid #282c34;
+    transition: 0.5s;
+
+}
+
+.adicionar form select option{
+    background-color: white;
+    color: black;
+
+}
+
+.fluxo-de-caixa{
+    width: calc(100%);
+    background-color: none;
+    padding: 2%;
+    margin: 10px;
+}
+
+.fluxo-de-caixa .entradas{
+    background-color: whitesmoke;
+    width: calc(100% - 50%);
+    margin: 10px;
+    color: #282c34;
+    border-radius: 10px;
+    padding: 2%;
+    transition: 1s;
+
+}
+
+.fluxo-de-caixa .saidas{
+
+    background-color: whitesmoke;
+    width: calc(100% - 50%);
+    margin: 8px ;
+   
+    color: #282c34;
+    border-radius: 10px;
+    padding: 2%;
+    
+}
+
+@media screen and (max-width: 700px) {
+    .fluxo-de-caixa .saidas h2{
+        
+        font-size: 25px;
+    }
+
+    .fluxo-de-caixa .entradas h2{
+        
+        font-size: 25px;
+
+    }
+
+    .tabela{
+        width: 100%;
+       
+    }
+
+    table{
+        width: 100%;
+        
+    }
+
+    table td{
+        width: 100%;
+        font-size: 12px;
+    }
+    
+}
+
+.fluxo-de-caixa .total{
+    background-color: whitesmoke;
+    width: 100%;
+    margin: 10px 0 ;
+   
+    color: #282c34;
+    border-radius: 10px;
+    padding: 2%;
+
+}
+
+.container-fluxo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    
+}
+
+.saidas h2{
+    color: rgb(225, 5, 5);
+}
+
+.entradas h2{
+
+    color: rgb(5, 225, 93);
+
+
+}
