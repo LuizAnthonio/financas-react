@@ -1,0 +1,187 @@
+*{
+  box-sizing: border-box;
+  
+}
+
+.App {
+  text-align: center;
+  background-color: #cccc;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.container-geral{
+  width: 100%;
+  margin: 0 auto;
+  padding: 2%;
+  display: flex;
+  background-color: rgb(175, 175, 175);
+  height: 100vh;
+
+}
+
+.fluxo-container{
+  width: 40%;
+  
+
+
+
+}
+
+form{
+  margin: 20px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(233, 230, 230, 0.8);
+  padding: 2%;
+  border-radius: 10px;
+  
+}
+
+form input{
+  margin: 3px;
+  width: 200px;
+  height: 4vh;
+  border-radius: 10px;
+  border: 1px solid #cccc;
+}
+
+form button{
+  width: calc(20% - 4%);
+  height: 4vh;
+  border-radius: 10px;
+  background-color: #282c34;
+  color:aliceblue;
+  cursor: pointer;
+
+}
+
+table{
+  width: 100%;
+  border-radius: 10px;
+  padding: 1%;
+  background-color: aliceblue;
+}
+
+table th{
+  border-radius: 4px;
+  background-color: #cccc;
+}
+
+
+
+table tr:hover{
+  background-color: rgba(204, 204, 204, 0.153);
+  
+}
+
+.cabeca{
+  
+ 
+}
+
+.teste-c{
+  width: 100%;
+  background-color: rgba(187, 187, 187, 0.8);
+  border-radius: 10px 10px 0 0 ;
+}
+
+.container-nota-fiscal{
+  width: 60%;
+  margin: 0 2%;
+  
+  
+  border-radius: 10px;
+}
+
+.entradas-container{
+  width: 200px;
+  height: 100px;
+  margin: 10px;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+
+.entradas-container h3{
+  width: 100%;
+  position: relative;
+  top: -10px;
+  font-size: 30px;
+  color: green;
+}
+
+
+.saidas-container{
+  width: 200px;
+  height: 100px;
+  margin: 10px;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+
+.saidas-container h3{
+ 
+  position: relative;
+  top: -10px;
+  font-size: 30px;
+  color: red;
+}
+
+.total-container{
+  width: 420px;
+  height: 100px;
+  margin: 10px;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+
+.total-container h3{
+ 
+  position: relative;
+  top: -27px;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.fluxo-single{
+  width: calc(100% - 2%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
